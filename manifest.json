@@ -1,0 +1,33 @@
+{
+    "format_version": 2,
+    "header": {
+        "name": "Health Bar v2.0",
+        "description": "§7Compatible with §fv1.21§7\nCreated by §bSMDGAMERZ <§3admin@cromite.net§b>§7\nUpdate & bug report at §eDiscord",
+        "uuid": "8227C6BC-9F55-4CB9-A63F-C8B46BFE9BD5",
+        "version": [ 2, 0, 0 ],
+        "min_engine_version": [ 1, 21, 0 ]
+    },
+    "modules": [
+        {
+            "type": "resources",
+            "uuid": "99327B4F-1B83-41CD-AEFD-696990B9CB8D",
+            "version": [ 2, 0, 0 ]
+        }
+    ],
+    "metadata": {
+        "authors": [ "SMDGAMERZ" ],
+        "url": "https://mcpedl.com/health-bar/"
+    },
+    "subpacks": [
+        {
+            "folder_name": "h",
+            "name": "Hide until hurt",
+            "memory_tier": 0
+        },
+        {
+            "folder_name": "a",
+            "name": "Always show",
+            "memory_tier": 0
+        }
+    ]
+}
