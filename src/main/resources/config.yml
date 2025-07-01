@@ -1,0 +1,66 @@
+# LifeLineX Configuration File
+# Created by Pixeldev
+# Version: 2.0.0
+
+# Enable or disable the health bar display
+# Default: true
+enabled: true
+
+# Display mode for health bars:
+# ALWAYS_SHOW - Always show health bars
+# HIDE_UNTIL_HURT - Only show when entity is damaged
+# DAMAGE_ONLY - Show only during damage events
+# Default: HIDE_UNTIL_HURT
+display-mode: HIDE_UNTIL_HURT
+
+# Show health bars for players
+# Default: true
+show-for-players: true
+
+# Show health bars for mobs
+# Default: true
+show-for-mobs: true
+
+# Show health bars for bosses
+# Default: true
+show-for-bosses: true
+
+# Maximum distance to show health bars (in blocks)
+# Default: 32.0
+max-distance: 32.0
+
+# Update interval for health bars (in ticks)
+# Lower values = more frequent updates but higher performance cost
+# Default: 5
+update-interval: 5
+
+# Use custom textures from the resource pack
+# Default: true
+use-custom-textures: true
+
+# Health bar format (for text-based displays)
+# Available placeholders: %current%, %max%, %percentage%
+# Default: "❤ %current%/%max%"
+health-bar-format: "❤ %current%/%max%"
+
+# List of worlds where health bars are disabled
+# Default: ["example_world"]
+disabled-worlds:
+  - "example_world"
+
+# Advanced settings
+advanced:
+  # Use armor stands for health bar display (more accurate positioning)
+  use-armor-stands: false
+  
+  # Health bar scale multiplier
+  scale-multiplier: 1.0
+  
+  # Fade out time for health bars (in seconds)
+  fade-out-time: 3.0
+  
+  # Show health bars through walls
+  show-through-walls: false
+  
+  # Minimum health percentage to show health bar
+  min-health-percentage: 0.0

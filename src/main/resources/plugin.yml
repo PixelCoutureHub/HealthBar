@@ -1,0 +1,41 @@
+name: LifeLineX
+version: '${project.version}'
+main: com.pixeldev.llx.LifeLineX
+api-version: '1.21'
+author: Pixeldev
+description: Advanced health bar display plugin for Minecraft
+website: https://github.com/pixeldev/LifeLineX
+
+commands:
+  lifelinex:
+    description: Main LifeLineX command
+    usage: /<command> [help|reload|toggle|mode|distance|resourcepack|info]
+    aliases: [llx, healthbar, hb]
+
+permissions:
+  lifelinex.*:
+    description: All LifeLineX permissions
+    children:
+      lifelinex.admin: true
+      lifelinex.use: true
+    default: op
+  
+  lifelinex.admin:
+    description: Administrative permissions for LifeLineX
+    default: op
+  
+  lifelinex.use:
+    description: Basic usage permissions for LifeLineX
+    default: true
+  
+  lifelinex.reload:
+    description: Permission to reload the plugin
+    default: op
+  
+  lifelinex.toggle:
+    description: Permission to toggle health bars
+    default: op
+  
+  lifelinex.config:
+    description: Permission to modify configuration
+    default: op

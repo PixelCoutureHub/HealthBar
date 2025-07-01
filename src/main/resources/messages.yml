@@ -1,0 +1,27 @@
+# LifeLineX Messages Configuration
+# You can use MiniMessage format for advanced text formatting
+
+prefix: "<gradient:#ff6b6b:#4ecdc4>[LifeLineX]</gradient> "
+
+commands:
+  no-permission: "<red>You don't have permission to use this command!"
+  player-only: "<red>This command can only be used by players!"
+  invalid-number: "<red>Invalid number format!"
+  config-reloaded: "<green>LifeLineX configuration reloaded!"
+  plugin-enabled: "<green>LifeLineX has been enabled!"
+  plugin-disabled: "<red>LifeLineX has been disabled!"
+  mode-changed: "<green>Display mode set to: <white>%mode%"
+  distance-changed: "<green>Max distance set to: <white>%distance% <green>blocks"
+  resourcepack-applied: "<green>Resource pack applied!"
+
+errors:
+  invalid-mode: "<red>Invalid display mode! Use: ALWAYS_SHOW, HIDE_UNTIL_HURT, or DAMAGE_ONLY"
+  distance-range: "<red>Distance must be between 1 and 100!"
+  resourcepack-failed: "<red>Failed to apply resource pack!"
+
+info:
+  version: "<yellow>Version: <white>%version%"
+  author: "<yellow>Author: <white>Pixeldev"
+  status: "<yellow>Status: %status%"
+  display-mode: "<yellow>Display Mode: <white>%mode%"
+  max-distance: "<yellow>Max Distance: <white>%distance% <yellow>blocks"
